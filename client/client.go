@@ -12,7 +12,7 @@ import (
 func main() {
 	host := flag.String("host", "", "Host IP")
 	port := flag.String("port", "", "Host Port")
-  flag.Parse()
+	flag.Parse()
 
 	if *host == "" {
 		fmt.Println("Must specify target host")
