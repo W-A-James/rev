@@ -1,6 +1,6 @@
-all: listener_mod/nc_listen.go dialer_mod/nc_dial.go
-	go build -o build/listener listener
-	go build -o build/dialer dialer
+all: server/server.go client/client.go
+	go build -o build/rev_server server
+	go build -o build/rev_client client
 
 clean:
 	rm -rf build/*
