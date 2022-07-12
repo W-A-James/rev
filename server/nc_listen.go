@@ -12,6 +12,7 @@ import (
 	"strings"
 )
 
+// TODO: look for /bin/sh, /bin/bash, /usr/bin/sh, /usr/bin/bash
 func genHandle(allow_ip string) func(net.Conn) {
 	return (func(conn net.Conn) {
 		remoteAddr := conn.RemoteAddr().String()

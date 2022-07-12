@@ -1,3 +1,3 @@
-module example.com/nc_e_clone
+module rev
 
 go 1.17
