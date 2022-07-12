@@ -1,0 +1,6 @@
+go 1.18
+
+use (
+	./dialer_mod
+	./listener_mod
+)
